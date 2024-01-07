@@ -1,0 +1,204 @@
+body{
+  
+    margin: 0;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f9f9fd;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #18aaaa;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  background-color: #f9f9fd;
+}
+
+.block-fon{
+    display: flex;
+    justify-content:center;
+    background-color: #307fbd;
+    width: 100%;
+    
+}
+
+.block-fon h1{
+    font-family: 'Fira Sans', sans-serif;
+    font-size:30px;
+    display: flex;
+    color: #fff;
+    text-align: center;
+    
+}
+
+
+.monday h1{
+    font-family: 'Fira Sans', sans-serif;
+    font-size:30px;  
+    color: #fff;
+    
+
+
+}
+
+.monday{
+ background-color: #6090d9;
+     font-family: 'Fira Sans', sans-serif;
+    font-size:30px;  
+    color: #fff;
+        width: 41%;
+        text-align: center;
+    
+   
+
+}
+
+#button-mobile{
+    width: 30%;
+    margin-left: 5%;
+}
+
+
+
+.lesson{
+        background-color: #307fbd;
+        text-align: center;
+    height: 36px;
+        padding: 8px;
+        border-radius: 5px;
+}
+
+.lesson{
+    color:#fff;
+
+}
+
+.lessons{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    width:20%;
+}
+
+.homework{
+        background-color: rgba(174,174,174,.511);
+      
+       height: 36px;
+color: white;
+    text-align: center;
+        padding: 8px;
+        border-radius: 5px;
+}
+
+
+
+.lessons_and_homework{display: flex;
+    justify-content: center;
+        gap: 3px;
+}
+
+.homework-block{
+        display: flex;
+    gap: 5px;
+    flex-direction: column;
+    width: 20%;
+}
+
+
+.grid{
+    gap:5px;
+        display: flex;
+    flex-direction: column;
+}
+.lesson{
+  font-family: 'Fira Sans', sans-serif;
+        font-size: 30px;
+}
+
+.homework{
+      font-family: 'Fira Sans', sans-serif;
+        font-size: 30px;
+}
+
+.block{
+display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.all-blocks{
+        display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.asdasd{
+        display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+@media (max-width: 586px) {
+    .homework {
+        font-size: 18px;}
+  
+}
+
+
+@media (min-width: 340px) {
+    .homework {
+        font-size: 18px;}
+
+}
+
+@media (min-width: 340px) {
+
+    .monday{
+         font-size: 19px;
+    }
+}
+
+@media (max-width: 586px) {
+  
+    .monday{
+         font-size: 19px;
+    }
+}
+
+
+
+@media (min-width: 1000px) and (max-width: 8000px) {
+  
+    #button-mobile{
+        display: none;
+    }
+     #button{
+        display: block;
+    }
+}
+    
+    
+
+@media (min-width: 0px) and (max-width: 1000px) {
+  
+    #button-mobile{
+        display: block;
+    }
+     #button{
+        display: none;
+    }
+}
+    
+    
