@@ -153,7 +153,7 @@ var fieldNameElement = document.getElementById('tuesday_seven_lesson');
 
 var fieldNameElement = document.getElementById('wednesday_one_lesson');
         if (fieldNameElement)            
-        {fieldNameElement.innerHTML = '' ;}
+        {fieldNameElement.innerHTML = 'НОМЕРА 2.421,2.422 А)В)Д)' ;}
     
 
 
@@ -242,7 +242,7 @@ var fieldNameElement = document.getElementById('thursday_one_lesson');
 
 var fieldNameElement = document.getElementById('thursday_two_lesson');
         if (fieldNameElement)            
-        {fieldNameElement.innerHTML = '' ;}
+        {fieldNameElement.innerHTML = '2c (С.113) П' ;}
 
 
 
@@ -263,7 +263,7 @@ var fieldNameElement = document.getElementById('thursday_five_lesson');
 
 var fieldNameElement = document.getElementById('thursday_six_lesson');
         if (fieldNameElement)            
-        {fieldNameElement.innerHTML = '' ;}
+        {fieldNameElement.innerHTML = '§20 ЧИТАТЬ' ;}
 
 
 var fieldNameElement = document.getElementById('thursday_seven_lesson');
