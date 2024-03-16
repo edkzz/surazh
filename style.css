@@ -187,6 +187,9 @@ display: flex;
      #button{
         display: block;
     }
+    .button_login{
+        line-height: 5;
+    }
 }
     
     
@@ -199,6 +202,34 @@ display: flex;
      #button{
         display: none;
     }
+
+    .button_login{
+        line-height: 7;
+    }
 }
     
+.hide {
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
     
+    display: none;
+  }
+  .window {
+    background: white;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    border: 1px solid black;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background: lightsteelblue;
+    
+    display: none;
+  }  

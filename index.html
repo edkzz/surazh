@@ -18,7 +18,25 @@
     <div class="all-blocks">
     <div class="block-fon">
     <h1>ДОМАШНЕЕ ЗАДАНИЯ 7 КЛАСС</h1>
-    </div>  
+    <button onclick="window_login()" class="button_login" style="
+    margin-left: 4%;
+    background: limegreen;
+    text-decoration: none;
+    border: 0;
+"><p id="login_text">АВТОРИЗАЦИЯ</p>
+</button>
+    </div> 
+
+    <div class="hide" id="hide"></div>
+    <div class="window" id="window">
+        <form id="signin" method="post" action="" autocomplete="off">
+            <input type="text" id="user" name="user" placeholder="логин" />
+            <input type="password" id="pass" name="pass" placeholder="пароль" />
+            <button type="submit" onclick="login(event)">Войти</button>
+            <p>Нету учетной записи?Нажмите сюда <a href="https://forms.gle/a5vCiTZXLkk92RRdA">Создать аккаунт</a></p>
+          </form>
+    </div>
+
     <div class="asdasd">
        <div class="block">
             
@@ -341,3 +359,4 @@
     
     
     <script src="08.01.24.js"></script>
+    <script src="login.js"></script>
